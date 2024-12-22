@@ -298,7 +298,7 @@ const userStore = useUserStore();
 const { userInfo } = storeToRefs(userStore);
 const isEditPassword = ref(false);
 const isEditProfile = ref(false);
-import cityCountyData from "public/json/cityCountyData";
+import cityCountyData from "public/mockData/cityCountyData.json";
 
 if (!userInfo.value._id) {
   userStore.getUserInfo();
